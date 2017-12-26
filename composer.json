@@ -5,6 +5,7 @@
     "license": "MIT",
     "type": "project",
     "minimum-stability": "dev",
+    "version":"1.0",
     "author":[
         {
             "name": "Rami Awadallah",
