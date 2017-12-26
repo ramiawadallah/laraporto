@@ -1,20 +1,10 @@
 {
-
-	"name": "laraporto/laraporto",
-    "description": "The easy laravel admin panel",
-    "keywords": ["adminpanel", "laravel" , "laraflat"],
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
-    "version":"1.0",
-     "minimum-stability": "dev",
-     "authors":[
-     	{
-     		"name":"Rami Awadallah",
-     		"email":"rami.moh.awadallah@gmail.com",
-     		"homepage":"http://ramiawadallah.com",
-     		"role":"Developer"
-     	}
-     ],"require": {
+    "require": {
         "php": ">=7.0.0",
         "baum/baum": "~1.1",
         "fideloper/proxy": "~3.3",
@@ -79,5 +69,4 @@
         "sort-packages": true,
         "optimize-autoloader": true
     }
-
 }
