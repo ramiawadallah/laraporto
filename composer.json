@@ -1,0 +1,10 @@
+{
+
+	"name": "laraporto/laraporto",
+    "description": "The easy laravel admin panel",
+    "keywords": ["adminpanel", "laravel" , "laraflat"],
+    "license": "MIT",
+    "type": "project",
+     "minimum-stability": "dev"
+
+}
