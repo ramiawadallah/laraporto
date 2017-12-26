@@ -4,7 +4,7 @@
     "keywords": ["framework", "laravel","laraporto"],
     "license": "MIT",
     "type": "project",
-    "minimum-stability": "dev",
+    "minimum-stability": "@dev",
     "version":"1.0",
     "author":[
         {
