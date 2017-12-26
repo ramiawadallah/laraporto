@@ -4,7 +4,7 @@
     "keywords": ["framework", "laravel","laraporto"],
     "license": "MIT",
     "type": "project",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "author":[
         {
             "name": "Rami Awadallah",
