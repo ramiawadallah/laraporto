@@ -5,6 +5,79 @@
     "keywords": ["adminpanel", "laravel" , "laraflat"],
     "license": "MIT",
     "type": "project",
-     "minimum-stability": "dev"
+    "version":"1.0",
+     "minimum-stability": "dev",
+     "authors":[
+     	{
+     		"name":"Rami Awadallah",
+     		"email":"rami.moh.awadallah@gmail.com",
+     		"homepage":"http://ramiawadallah.com",
+     		"role":"Developer"
+     	}
+     ],"require": {
+        "php": ">=7.0.0",
+        "baum/baum": "~1.1",
+        "fideloper/proxy": "~3.3",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.5"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files":[
+            "app/Helpers/HelperValidatesRequest.php",
+            "app/Helpers/helpers.php",
+            "app/Helpers/routesMethods.php",
+            "app/Helpers/flash.php",
+            "app/Helpers/functions.php",
+            "app/Helpers/Src/Routes/MyRoute.php",
+            "app/Helpers/Src/Files/Files.php",
+            "app/helpers/Src/bsForm.php",
+            "app/Helpers/Src/Btn.php",
+            "app/Helpers/Src/Control.php",
+            "app/Helpers/Src/langForm.php",
+            "app/Relation/RelationMethods.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
 
 }
