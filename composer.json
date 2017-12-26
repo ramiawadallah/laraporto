@@ -1,6 +1,6 @@
 {
     "name": "laraporto/laraporto",
-    "description": "The Laravel Framework.",
+    "description": "The Laraporto Admin Panel.",
     "keywords": ["framework", "laravel","laraporto"],
     "license": "MIT",
     "type": "project",
