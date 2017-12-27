@@ -5,8 +5,7 @@
 
 composer create-project laraporto/laraporto:"dev-master"
 
+** composer update
 
-composer update
-
-composer dump-autoload
+** composer dump-autoload
 
