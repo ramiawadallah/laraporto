@@ -1,7 +1,7 @@
 
 ## About Laraporto
 
-composer create-project laraporto/laraporto:"dev-master"
+composer create-project laraporto/laraporto:"dev-master" [YOUR PROJECT NAME]
 
 composer update
 
