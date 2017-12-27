@@ -1,15 +1,13 @@
 
 ## About Laravel
 
-
-
 composer create-project laraporto/laraporto:"dev-master"
 
 composer update
 
 composer dump-autoload
 
-Add This Trit to Model.php  
+## Add This Trit to Model.php  
 
 if (trait_exists('App\Relation\RelationMethods')) 
 {
