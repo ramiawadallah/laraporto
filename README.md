@@ -1,5 +1,5 @@
 
-## About Laravel
+## About Laraporto
 
 composer create-project laraporto/laraporto:"dev-master"
 
