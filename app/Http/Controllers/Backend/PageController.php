@@ -70,8 +70,11 @@ class PageController extends Controller
         $this->validate($request,[
             'translate' => [
                 'title' => 'required',
+                'content' => 'required',
             ],
             'uri' => 'required',
+            'order' => 'required',
+            'orderPage' => 'required',
         ]);
 
         // Photo request
