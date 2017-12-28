@@ -5,7 +5,7 @@ namespace App;
 //use Illuminate\Database\Eloquent\Model;
 use Baum\Node;
 
-class Page extends Node
+class Page extends Baum\Node
 {
     protected $fillable = ['title' , 'name', 'uri', 'content', 'template', 'photo', 'created_by', 'updated_by'];
 

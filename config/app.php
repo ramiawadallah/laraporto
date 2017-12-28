@@ -178,7 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
-        Baum\Providers\BaumServiceProvider::class,
+        // Baum\Providers\BaumServiceProvider::class,
 
     ],
 
